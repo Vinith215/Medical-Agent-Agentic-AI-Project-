@@ -51,30 +51,31 @@ medical-agent/
 └── README.md             # Project documentation
 
 
-**⚙️ Installation & Setup
-1. Prerequisites**
+**⚙️ Installation & Setup**
+
+1. Prerequisites
 Python installed on your machine.
 
 An OpenAI API Key (required for the LLM and Embeddings).
 
-**2. Clone/Create the Project**
+2. Clone/Create the Project
 Create a folder named medical-agent and navigate into it.
 
-**3. Create a Virtual Environment**
+3. Create a Virtual Environment
 It is recommended to use a virtual environment to manage dependencies.
 
 # Windows
 python -m venv venv
 venv\Scripts\activate
 
-**4. Install Dependencies**
+4. Install Dependencies
 pip install -r requirements.txt
 
-**5. Configure API Key**
+5. Configure API Key
 Create a file named .env in the root directory and add your OpenAI key:
 OPENAI_API_KEY=sk-proj-your-actual-api-key-here
 
-**▶️ How to Run**
+▶️ How to Run
 1. Ensure your virtual environment is active.
 
 2. Run the Streamlit application:
@@ -82,12 +83,12 @@ streamlit run app.py
 
 3. The app will open automatically in your browser at http://localhost:8501.
 
-**🧪 Usage Guide**
-**1. Enter Symptoms:** In the sidebar, type symptoms (e.g., "Patient has high fever and muscle aches").
-**2. Add History:** Add context (e.g., "No allergies, recent travel").
-**3. Upload X-Ray:** (Optional) Upload a .png or .jpg image.
-**4. Click Analyze:** The agent will:
+🧪 Usage Guide
+1. Enter Symptoms: In the sidebar, type symptoms (e.g., "Patient has high fever and muscle aches").
+2. Add History: Add context (e.g., "No allergies, recent travel").
+3. Upload X-Ray: (Optional) Upload a .png or .jpg image.
+4. Click Analyze: The agent will:
     Retrieve similar cases from the vector database (RAG).
     Analyze the inputs using the LLM.
     Generate a structured report.
-**5. Listen:** Click the audio player to hear the diagnosis.
+5. Listen: Click the audio player to hear the diagnosis.
