@@ -4,7 +4,7 @@
 
 **Dr. Agent** is a specialized AI application capable of analyzing patient symptoms, reviewing medical history, and interpreting X-rays to provide a preliminary diagnosis summary. 
 
-This project was built from scratch following the **"10 Steps to Build AI Agents"** framework by Dr. Maryam Miradi. It demonstrates how to orchestrate Reasoning, RAG (Retrieval-Augmented Generation), Vision, and Voice capabilities into a single cohesive agent.
+This project was built from scratch following the **"10 Steps to Build AI Agents"**. It demonstrates how to orchestrate Reasoning, RAG (Retrieval-Augmented Generation), Vision, and Voice capabilities into a single cohesive agent.
 
 ---
 
